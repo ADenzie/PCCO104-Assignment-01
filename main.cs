@@ -13,35 +13,35 @@ class Program {
                 Console.WriteLine("No Person is found");
                 break;
             case "1":
-                Console.WriteLine("Jose Rizal is found on 1 peso");
+                Console.WriteLine("{0} is found on {1} peso", "Jose Rizal", denomination);
                 break;
             case "5":
-                Console.WriteLine("Emilio Aguinaldo is found on 5 pesos");
+                Console.WriteLine("{0} is found on {1} pesos", "Emilio Aguinaldo", denomination);
                 break;
             case "10":
-                Console.WriteLine("Andres Bonifacio, Apolinario Mabini is found on 10 pesos");
+                Console.WriteLine("{0}, {1} is found on {2} pesos", "Andres Bonifacio", "Apolinario Mabini", denomination);
                 break;
             case "20":
-                Console.WriteLine("Manuel L. Quezon is found on 20 pesos");
+                Console.WriteLine("{0} is found on {1} pesos", "Manuel L. Quezon", denomination);
                 break;
             case "50":
-                Console.WriteLine("Sergio Osmena is found on 50 pesos");
+                Console.WriteLine("{0} is found on {1} pesos", "Sergio Osmena", denomination);
                 break;
             case "100":
-                Console.WriteLine("Manuel Roxas is found on 100 pesos");
+                Console.WriteLine("{0} is found on {1} pesos", "Manuel Roxas", denomination);
                 break;
             case "200":
-                Console.WriteLine("Diosdado Macapagal is found on 200 pesos");
+                Console.WriteLine("{0} is found on {1} pesos", "Diosdado Macapagal", denomination);
                 break;
             case "500":
-                Console.WriteLine("Benigno Sr. and Corazon Aquino is found on 500 pesos");
+                Console.WriteLine("{0} and {1} are found on {2} pesos", "Benigno Sr.", "Corazon Aquino", denomination);
                 break;
             case "1000":
-                Console.WriteLine("Jose Abad Santos, Vicente Lim, Josefa Llanes Escoda is found on 1000 pesos");
+                Console.WriteLine("{0}, {1}, {2} are found on {3} pesos", "Jose Abad Santos", "Vicente Lim", "Josefa Llanes Escoda", denomination);
                 break;
-          default:
-          Console.WriteLine("No Person is found or Invalid Denomination: " + denomination);
-          break;
+            default:
+                Console.WriteLine("Invalid Denomination: {0}", denomination);
+                break;
         }
     }
 }
